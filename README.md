@@ -18,7 +18,7 @@ Include in your project
 <script src="<path>/extensions.js"></script>
 ```
 
-This library uses a variant of the naming convention known as [Hungarian Notation](https://en.wikipedia.org/wiki/Hungarian_notation) for variable names. Simply put the variable name is prefixed with the first letter of the data type the variable is.
+This library uses a variant of the naming convention known as [Hungarian Notation](https://en.wikipedia.org/wiki/Hungarian_notation) for variable names. Simply put the variable name is prefixed with the first letter of the data type that the variable is.
 
 | Prefix | Data Type  | Example  |
 | ------ | ---------- | -------- |
