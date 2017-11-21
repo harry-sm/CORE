@@ -9,18 +9,24 @@ Fetch the project via git:
 `git clone https://github.com/harry-sm/CORE.git`
 
 Include in your project
-`<script src="<path>/core.js"></script>`
-`<script src="<path>/extensions.js"></script>`
+
+```html
+<script src="<path>/core.js"></script>
+```
+
+```html
+<script src="<path>/extensions.js"></script>
+```
 
 This library uses a variant of the naming convention known as [Hungarian Notation](https://en.wikipedia.org/wiki/Hungarian_notation) for variable names. Simply put the variable name is prefixed with the first letter of the data type the variable is.
 
-| Prefix | Data Type  | Example |
-| ------ | ---------- | ------- |
-| s      | string     | sData   |
-| n      | number     | nData   |
-| a      | array      | aData   |
-| o      | object     | oData   |
-| $      | DOM object | $       |
+| Prefix | Data Type  | Example  |
+| ------ | ---------- | -------- |
+| s      | string     | sData    |
+| n      | number     | nData    |
+| a      | array      | aData    |
+| o      | object     | oData    |
+| $      | DOM object | $element |
 
 ### Browser Support
 
@@ -48,7 +54,7 @@ The parameter `$`  used in the factory functions contains the DOM element that c
 
 
 
-####$.plugin( sPluginID, oData)
+#### $.plugin( sPluginID, oData)
 
 | Parameter | Type   | Example     | Description                              |
 | --------- | ------ | ----------- | ---------------------------------------- |
@@ -196,7 +202,7 @@ CORE.module.restart(['#foo']);
 
 
 
-##Plugin
+## Plugins
 Plugins are reuseable behaviours that are used within the app, such as sliders, accordion and carousels.
 
 
@@ -253,7 +259,7 @@ CORE.plugin.create('accordion', ['dom', 'events'], function( $ ) {
 
 
 
-####Usage
+#### Usage
 
 ```html
 <div id="accordian-element" class="accordion">
@@ -409,7 +415,7 @@ Extend adds additional functionality you want to the CORE object.
 
 `void`
 
-####Example
+#### Example
 
 ```js
 CORE.extend('anything', function (){
