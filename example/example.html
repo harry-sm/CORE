@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="./resources/app.css">
+		<title>Example</title>
+		
+	</head>
+	<body class="body" >
+
+		<div style="position: relative; height: 100%; overflow: hidden">
+			<div class="page">
+				<header class="header">
+					<div id="header-controls" class="header-controls">
+						<button id="search-trigger" class="search-trigger" type="button">Search Button</button>
+					</div>
+				</header>
+
+				<div id="accordian" class="accordion">
+					<div class="accordion-btn">Accordian 1</div>
+					<div class="accordion-content">
+						<div>
+							Content
+						</div>
+					</div>
+					<div class="accordion-btn">Accordian 2</div>
+					<div class="accordion-content">
+						<div>
+							Content 2
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="search-bar" class="search-bar">
+				<div class="search-bar-inner blue-1 solid">
+					<div class="search-form">
+						<div class="field-block">
+							<input id='search' type="search" class="field-item" placeholder="Type a keyword">
+						</div>
+					</div>
+					<span class="close-search top-bar-controls">&times;</span>
+				</div>
+			</div>
+		</div>
+
+	</body>
+
+	<script src="./resources/zepto.min.js"></script>
+	<script src="../core.js"></script>
+	<script src="../extras/extensions.js"></script>
+	<script src="../extras/plugins.js"></script>
+	<script src="./resources/app.js"></script>
+
+</html>
