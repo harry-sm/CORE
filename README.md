@@ -1,4 +1,4 @@
-#CORE
+# CORE
 
 Core is a modular, scalable and concise frontend framework. It's main purpose is to manage modules, plugins and extensions. It ensures loose coupling of components and allows for the use whatever communication system you want; however, one is provide in the extras folder.
 
