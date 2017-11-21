@@ -353,11 +353,11 @@ CORE.module.create('#elem', ['dom'], function ($) {
 
 ## CORE
 
-####CORE.debug( bOption )
+#### CORE.debug( bOption )
 
 Logs warnings and errors about CORE's internal operations  to the console. Default value: **true**
 
-####Parameters
+#### Parameters
 
 | Parameter | Type    | Example | Description                   |
 | --------- | ------- | ------- | ----------------------------- |
@@ -379,7 +379,7 @@ CORE.debug(true)
 
 Prints message to the console.
 
-####Parameters
+#### Parameters
 
 | Parameter | Type   | Example             | Description                              |
 | --------- | ------ | ------------------- | ---------------------------------------- |
@@ -400,7 +400,7 @@ CORE.log(1, 'Error message');
 
 
 
-####CORE.extend( sExtensionID, fFn )
+#### CORE.extend( sExtensionID, fFn )
 
 Extend adds additional functionality you want to the CORE object.
 
